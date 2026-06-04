@@ -47,6 +47,10 @@ section{
     border-radius:12px;
     transition:transform 0.3s ease;
     min-height:180px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
 }
 
 .card:hover{
