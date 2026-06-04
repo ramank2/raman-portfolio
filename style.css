@@ -43,11 +43,17 @@ section{
 
 .card{
     background:#1e293b;
-    padding:20px;
+    padding:25px;
     border-radius:12px;
+    transition:transform 0.3s ease;
 }
 
-.card a{
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card a,
+.card a:visited{
     color:#38bdf8;
     text-decoration:none;
     font-weight:600;
