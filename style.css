@@ -46,10 +46,12 @@ section{
     padding:25px;
     border-radius:12px;
     transition:transform 0.3s ease;
+    min-height:180px;
 }
 
 .card:hover{
     transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(56,189,248,0.25);
 }
 
 .card a,
