@@ -53,15 +53,20 @@ section{
 }
 
 .card a,
+.card a:link,
 .card a:visited{
-    color:#38bdf8;
+    color:#38bdf8 !important;
     text-decoration:none;
     font-weight:600;
 }
 
 .card a:hover{
-    color:white;
+    color:white !important;
     text-decoration:underline;
+}
+
+.card a:active{
+    color:#38bdf8 !important;
 }
 
 .buttons a{
